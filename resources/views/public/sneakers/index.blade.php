@@ -21,6 +21,8 @@
     </div>
     @endif
 
+<div class="row">
+    <div class="mr-lg4 mr-md2 mt4 col-12 col-lg-3 col-md-6">
     @forelse($sneakers as $sneaker)
     <div class="sneaker-card card mb-2">
         <div class="card-header">
@@ -74,6 +76,8 @@
             </div>
       </div>
     </div>
+  </div>
+  </div>  
 
     @empty
       <p>There arent sneakers</p>
